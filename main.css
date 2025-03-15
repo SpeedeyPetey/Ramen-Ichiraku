@@ -1,0 +1,31 @@
+html { 
+    font-size: 22px; /* change font size */
+}
+
+body {
+    background-color: #333; /* change background color */
+    color: whitesmoke; /* change font color */
+}
+
+/* change color of anchor tag */
+a {
+    color: aliceblue;
+}
+
+/* change color of anchor tag after it's been visisted */
+a:visited {
+    color: blue;
+}
+
+/* change color of link when it is hovered or active */
+a:hover, a:active{
+    color: red; 
+}
+
+/* format table */
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', 'Courier', monospace;
+    border-collapse: collapse; 
+    padding: 0.5rem;
+}

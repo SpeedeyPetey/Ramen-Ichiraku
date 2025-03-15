@@ -1,0 +1,156 @@
+<!DOCTYPE html> <!-- delare page as html5 document-->
+
+<html lang = "en"> <!-- set English as standard page language-->
+
+<!-- head of page -->
+<head> 
+
+    <meta charset = "UTF-8"> <!-- set page font-->
+
+    <!-- set page author and description-->
+    <meta name = "author" content = "Teuchi Ichiraku"> 
+    <meta name = "description" content = "Ramen Shop">
+
+    <title> Ramen Ichiraku </title> <!-- set page title-->
+
+    <!-- link logo to page icon and css file-->
+    <link rel = "icon" href = "RestaurantLogo.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "main.css" type = "text/css">
+
+</head>
+
+<!-- content of page -->
+<body> 
+
+    <!-- main content header -->
+    <header> 
+
+        <h1> Welcome to Ramen Ichiraku </h1>
+
+        <!-- links to other section of the page-->
+        <nav aria-label = "Primary-Navigation"> 
+            <ul>
+                <li> <a href = "#about"> About Ramen Ichiraku</a> </li>
+                <li> <a href = "#menu"> Our Menu </a> </li>
+                <li> <a href = "hours.html"> Store Hours </a> </li>
+                <li> <a href = "contact.html"> Contact Us </a> </li>
+            </ul>
+        </nav>
+
+        <!-- add image of ramen and caption-->
+        <figure>
+            <img src = "Images/Ramen.jpg" alt = "Image of Ichiraku Ramen" title = "Ichiraku Ramen" width = 300 loading = "lazy">
+            <figcaption> Ichiraku Ramen </figcaption>
+        </figure>
+    
+    </header>
+
+    <hr> 
+
+    <main> 
+
+        <!-- about section -->
+        <article id = about> 
+
+            <h2> About Ramen Ichiraku </h2>
+
+            <!-- description of resturant-->
+            <p> <abbr title = "Literally meaning: Ramen is the Best Pleasure"> Ichiraku Ramen </abbr> is a small but beloved ramen shop in <em> Naruto </em>, known for serving delicious noodles to ninjas and villagers alike. It is <strong> Naruto Uzumaki’s </strong> favorite place to eat, symbolizing warmth, comfort, and his bond with the people of Konoha.🍥</p>
+
+            <!-- trivia about the restaurant-->
+            <h3> Ramen Ichiraku Trivia: </h3>
+
+            <!-- create trivia with answer-->
+            <aside> 
+                <details> 
+                    <summary>
+                        At Ramen Ichiraku's eating contest, who holds the record for the most servings consumed in one sitting, and how many bowls did they eat?
+                    </summary>
+                    <p> 
+                        Hinata Uzumaki holds the record of <strong> 46 </strong> servings in one sitting, earning her the nickname "Queen of Gluttony"
+                    </p>
+                </details>
+            </aside>
+        </article>
+
+    <hr> 
+
+        <!-- menu section -->
+        <article id = "menu"> 
+
+            <h2> Our Menu </h2>
+
+            <table> 
+
+                <!-- table head (contain headers)-->
+                <caption>Our Ramen</caption>
+                <thead> 
+                    <tr> 
+                        <th scope = "col"> Ramen </th>
+                        <th scope = "col"> Size </th>
+                        <th scope = "col"> Price </th>
+                    </tr>
+                </thead>
+
+                <!-- table body (contain menu)-->
+                <tbody>
+
+                    <tr> <!--standard small-->
+                        <th scope = "row" rowspan = "3"> Standard Ichiraku Ramen </th> <!-- create row header-->
+                        <td> <abbr title = "Small"> S </abbr></td>
+                        <td> $8.99 </td>
+                    </tr>
+
+                    <tr> <!-- standard medium-->
+                        <td> <abbr title = "Medium"> M </abbr></td>
+                        <td> $10.99 </td>
+                    </tr>
+
+                    <tr> <!-- standard large-->
+                        <td> <abbr title = "Large"> L </abbr></td>
+                        <td> $13.99 </td>
+                    </tr>
+
+                    <tr> <!-- spicy small-->
+                        <th scope = "row" rowspan = "3"> Spicy Ichiraku Ramen </th>
+                        <td> <abbr title = "Small"> S </abbr></td>
+                        <td> $9.99 </td>
+                    </tr>
+
+                    <tr> <!-- spicy medium-->
+                        <td> <abbr title = "Medium"> M </abbr></td>
+                        <td> $11.99 </td>
+                    </tr>
+
+                    <tr> <!-- spicy large -->
+                        <td> <abbr title = "Large"> L </abbr></td>
+                        <td> $14.99 </td>
+                    </tr>
+
+                </tbody>
+
+                <!--table footer (contain side add ons)-->
+                <tfoot> 
+                    <tr> <!-- additional fish cakes &/or eggs-->
+                        <th colspan = "2"> Fish Cakes & Egg </th>
+                        <td> $2.00 </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </article>
+
+        <p> <a href = "#"> Back to Top </a></p> <!-- move page back to top-->
+
+    </main>
+
+    <hr> 
+
+    <!-- footer of the page (include copyright)-->
+    <footer> 
+        <p> Copyright &copy; Ramen Ichiraku</p>
+    </footer>
+
+</body>
+
+</html>

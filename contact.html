@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!-- declare page as html5 document-->
+
+<html lang = "en"> <!-- set page standard language-->
+
+<!-- header of page-->
+<head> 
+
+    <meta charset = "UTF-8"> <!-- set font of page-->
+
+    <!-- set author and content of page-->
+    <meta name = "author" content = "Teuchi Ichiraku">
+    <meta name = "description" content = "Contact the Restaurant">
+
+    <title> Contact Us </title>
+
+    <!-- link page to other pages and files-->
+    <link rel = "icon" href = "RestaurantLogo.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "main.css" type = "text/css">
+
+</head>
+
+<!-- body of page-->
+<body> 
+
+    <!-- header of body-->
+    <header> 
+
+        <h1> Contact Us </h1>
+
+        <!-- references to other pages/sections-->
+        <nav aria-label = "Primary-Navigation"> 
+            <ul> 
+                <li><a href = index.html> Home </a></li>
+                <li><a href = "index.html#about"> About Ramen Ichiraku </a></li> 
+                <li><a href = "index.html#menu"> Our Menu </a></li>
+                <li><a href = "hours.html"> Store Hours </a></li>
+            </ul>
+        </nav>
+
+        <!-- add image and its caption-->
+        <figure> 
+            <img src = "Images/Teuchi.jpg" alt = "Image of Ramen Ichiraku's Owner" title = "Teuchi Ichiraku" width = 300 loading = "lazy">
+            <figcaption> Konichiwa! Watashi wa Teuchi Ichiraku! </figcaption>
+        </figure>
+    </header>
+
+    <!-- main content of page-->
+    <main> 
+
+        <h2> Our Contact Form </h2>
+
+        <!-- create form for user-->
+        <form action = "https://httpbin.org/get" method = "get"> 
+
+            <fieldset> 
+
+                <legend> Send Us A Message </legend>
+
+                <!-- create name input-->
+                <p> 
+                    <label for = "name"> Name: </label>
+                    <input type = "text" name = "name" id = "name" placeholder = "Ex. Naruto Uzumaki" autocomplete = "on" required autofocus> 
+                </p>
+
+                <!-- create email input-->
+                <p> 
+                    <label for = "email"> Email: </label>
+                    <input type = "email" name = "email" id = "email" placeholder = "Ex. Naruto@gmail.com" autocomplete = "on" required>
+                </p>
+                
+                <!-- create message box-->
+                <label for = "message"> Your Message: </label>
+
+                <br> 
+
+                <textarea name = "message" id = "message" rows = "10" cols = "27" placeholder = "Type Your Message Here..."></textarea>
+
+            </fieldset>
+
+            <!--- create send/reset buttons-->
+            <button type = "submit" formaction = "https://httpbin.org/post" formmethod = "post"> Send </button> <!-- send button -->
+
+            <button type = "reset"> Reset </button> <!-- reset button-->
+
+        </form>
+
+    <h2> Our Location </h2>
+
+    <!-- display address-->
+    <address> 
+        Ichiraku Ramen 123 Noodle Way Konoha Village, Fire Country 54321 Hidden Leaf, Japan
+    </address>
+
+    <!-- display accessible phone number-->
+    <p><em> Phone: </em><a href = "tel:+81-123-456-7890"> 123-456-7890 </a></p>
+
+    <p><a href = "#"> Back to Top </a></p> <!-- back to top option-->
+
+    </main>
+
+    <hr>
+
+    <!-- footer of the page (include copyright) -->
+    <footer> 
+        <p> Copyright &copy; Ramen Ichiraku </p>
+    </footer>
+
+</body>
+
+</html>
