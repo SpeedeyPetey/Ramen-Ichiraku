@@ -1,5 +1,5 @@
 # RamenIchiraku
-**Project Name:** Ichiraku Ramen
+**Project Name:** Ramen Ichiraku
 - A simple website for a ramen restaurant, inspired by one of my favorite anime, *Naruto*, reinforcing HTML fundamentals.
 
 **Features:** 
